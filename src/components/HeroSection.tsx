@@ -77,7 +77,10 @@ export const HeroSection = () => {
               <img
                 src={heroImage}
                 alt="AI Brain solving problems"
-                className="w-full h-auto rounded-2xl shadow-elegant hover:shadow-glow transition-all duration-500"
+                className="w-full h-auto max-w-[620px] max-h-[348px] object-cover rounded-2xl shadow-elegant hover:shadow-glow transition-all duration-500"
+                width="620"
+                height="348"
+                loading="lazy"
               />
             </div>
             
